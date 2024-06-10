@@ -1,0 +1,40 @@
+.Lottodraw {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-width: 600px;
+    /* background-color: red; */
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 0.5em;
+    margin: 10px auto;
+}
+
+.Lottodraw-title {
+    font-size: 2rem;
+}
+
+.Lottodraw-balls {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100px;
+    width: 100%;
+}
+
+.Lottodraw-button {
+    width: 200px;
+    padding: 10px;
+    appearance: none;
+    background-color: red;
+    border-radius: 0.25em;
+    color: white;
+    border: none;
+    font-size: 24px;
+    margin: 10px;
+}

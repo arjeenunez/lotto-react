@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Lottoball from './Lottoball';
+import Lottodraw from './Lottodraw';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Lottodraw title="4/10 Mini Lottery" maxBalls={4} maxNum={10} />
+            <Lottodraw title="5/55 Grand Lottery" maxBalls={5} maxNum={55} />
+        </div>
+    );
 }
 
 export default App;

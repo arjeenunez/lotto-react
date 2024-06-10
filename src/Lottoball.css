@@ -1,0 +1,11 @@
+.Lottoball {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(255, 158, 46);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
