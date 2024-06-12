@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import "./Lottoball.css"
 
-
 class Lottoball extends Component {
     static defaultProps = {
         num: 40
